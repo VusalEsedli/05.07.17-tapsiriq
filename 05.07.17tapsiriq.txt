@@ -1,0 +1,23 @@
+C programlama dili (C), 1970'lerin bas?nda Ken Thompson ve Dennis Ritchie taraf?ndan UNIX isletim sistemi icin gelistirilmis 
+bir programlama dilidir.
+ C, gunumuzde neredeyse tum isletim sistemlerinde kullan?lan, dunyan?n en cok kullan?lan sistem programlama dilidir.
+ Ancak, uygulama programlar? yazmak icin de cok s?k kullan?l?r
+
+
+C oldukca minimalist bir dildir ve diger pek cok programlama dilinden daha dusuk duzeylidir.
+ Cogu zaman, C'nin dusuk duzeyli bir dil oldugu ya da bir yuksek seviye assembler oldugu soylenir.
+ Her ne kadar bazan bir yuksek duzeyli dil oldugu soylense de, gercekte C, yaln?zca assembly dillerinden daha yuksek duzeylidir. 
+
+
+C'nin assembly'ye gore iki onemli avantaj? vard?r: Ilk olarak, C kaynak kodunu okumas? daha kolayd?r, ve ozellikle uzun programlar icin, yazmas? da cok daha zahmetsizdir.
+ Ikinci olarak, bir assembly program? genellikle yaln?zca tek bir makina cesidi uzerinde cal?sabilirken, C programlar? (bir C derleyicisi ve gerekli kutuphaneler varsa) baska sistemlerde de cal?smak icin derlenebilirler.
+ Ote yandan, bir C program?n?n performans? derleyicinin makina kodunu eniyileme basar?s?na bagl?d?r, ki bu da programc?n?n denetimi d?s?ndad?r. Assembly programlar?n?n performans? ise dogrudan programc? taraf?ndan belirlenir,
+ cunku bir assembly program? asl?nda bir makina dilinin insanlar taraf?ndan daha kolay okunabilir bicimidir. Bu yuzden, baz? programlar?n (ornegin isletim sistemlerinin) yuksek performans gerektiren bolumleri assembly ile yaz?l?rlar.
+ Yine de, ozellikle modern mimariye sahip islemciler icin, C derleyicilerinin eniyileyerek urettigi assembly, elle yaz?lm?s assembly'den h?zl?d?r.
+
+
+Benzer avantajlar ve dezavantajlar C'yi yuksek duzeyli dillerden ay?r?r: bir C program?n?n verimliligi daha iyi kontrol edilebilir, ancak C programlar?n? yazmak ve okumak daha zordur. 
+Yine de dikkat edilmelidir ki, C en az yuksek duzeyli diller kadar tas?nabilirdir, cunku gunumuzde cogu bilgisayar sisteminde bir C derleyicisi vard?r; asl?nda, yuksek duzeyli dillerin pek cogunun derleyicileri, kutuphaneleri ve yorumlay?c?lar? C ile yaz?lm?slard?r.
+
+
+ 
